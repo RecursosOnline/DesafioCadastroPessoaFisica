@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCadastroPessoaFisica", "DesafioCadastroPessoaFisica\DesafioCadastroPessoaFisica.csproj", "{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1BD8805-25B8-4354-A6E3-EEED36C8A472}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCadastroPessoaFisica.Infraestructure", "DesafioCadastroPessoaFisica.Infraestructure\DesafioCadastroPessoaFisica.Infraestructure.csproj", "{CF73AEF1-ED81-495A-97B3-3625C3F9EB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCadastroPessoaFisicaTests", "DesafioCadastroPessoaFisicaTests\DesafioCadastroPessoaFisicaTests.csproj", "{276DC7FA-3602-4CCD-9155-13A2F35C90B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCadastroPessoaFisicaDatabaseTests", "DesafioCadastroPessoaFisicaDatabaseTests\DesafioCadastroPessoaFisicaDatabaseTests.csproj", "{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF73AEF1-ED81-495A-97B3-3625C3F9EB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF73AEF1-ED81-495A-97B3-3625C3F9EB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF73AEF1-ED81-495A-97B3-3625C3F9EB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF73AEF1-ED81-495A-97B3-3625C3F9EB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276DC7FA-3602-4CCD-9155-13A2F35C90B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276DC7FA-3602-4CCD-9155-13A2F35C90B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276DC7FA-3602-4CCD-9155-13A2F35C90B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276DC7FA-3602-4CCD-9155-13A2F35C90B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

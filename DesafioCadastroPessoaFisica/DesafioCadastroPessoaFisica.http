@@ -1,0 +1,10 @@
+@DesafioCadastroPessoaFisica_HostAddress = https://localhost:7220
+
+GET {{DesafioCadastroPessoaFisica_HostAddress}}/PessoaFisica/
+Accept: application/json
+
+###
+
+GET {{DesafioCadastroPessoaFisica_HostAddress}}/PessoaFisica
+
+###
