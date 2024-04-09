@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\fabio\AppData\Local\JetBrains\Rider2023.3\resharper-host\temp\Rider\vAny\CoverageData\_DesafioCadastroPessoaFisica.-1211361642\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=02a70b8e_002D1bc4_002D45af_002D957e_002D875fe0e20a00/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=276dc7fa_002D3602_002D4ccd_002D9155_002D13a2f35c90b2_0023DesafioCadastroPessoaFisicaTests/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

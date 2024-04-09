@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisica\\endpoints\\pessoafisicaendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|solutionrelative:desafiocadastropessoafisica\\endpoints\\pessoafisicaendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|solutionrelative:desafiocadastropessoafisica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisica\\desafiocadastropessoafisica.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|solutionrelative:desafiocadastropessoafisica\\desafiocadastropessoafisica.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PessoaFisicaEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
+              "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
+              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
+              "RelativeToolTip": "DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T03:47:15.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Program.cs",
+              "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Program.cs",
+              "RelativeToolTip": "DesafioCadastroPessoaFisica\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T03:47:03.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DesafioCadastroPessoaFisica.http",
+              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
+              "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
+              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
+              "RelativeToolTip": "DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-09T03:19:59.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

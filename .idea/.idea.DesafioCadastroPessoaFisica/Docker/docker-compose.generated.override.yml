@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  desafiocadastropessoafisica:
+    build:
+      context: "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica"
+      dockerfile: "DesafioCadastroPessoaFisica/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/DesafioCadastroPessoaFisica.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "desafiocadastropessoafisica:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\fabio\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica:/app:rw"
+    - "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica:/src:rw"
+    working_dir: "/app"

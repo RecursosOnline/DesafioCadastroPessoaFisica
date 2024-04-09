@@ -1,0 +1,26 @@
+﻿services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Tribal#Show"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+  desafiocadastropessoafisica:
+    image: desafiocadastropessoafisica
+    build:
+      context: .
+      dockerfile: DesafioCadastroPessoaFisica/Dockerfile 
+    depends_on: [db]
+    environment:
+      ConnectionStrings__DesafioCadastroPessoaFisicaDockerCompose:
+        "Server=db;Database=DesafioCadastroPessoaFisica;User Id=sa;Password=Tribal#Show;TrustServerCertificate=True"
+    ports:
+      - "8080:8080"
+    
+#  desafiocadastropessoafisicatests:
+#    image: desafiocadastropessoafisicatests
+#    build:
+#      context: .
+#      dockerfile: DesafioCadastroPessoaFisicaTests/Dockerfile
+#    depends_on: [db]
