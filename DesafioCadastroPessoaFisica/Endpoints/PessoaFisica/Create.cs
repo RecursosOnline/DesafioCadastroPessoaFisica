@@ -31,6 +31,7 @@ public class Create: EndpointBaseAsync
     ]
     public override async Task<CreatePessoaFisicaResponse> HandleAsync([FromBody]CreatePessoaFisicaCommand request, CancellationToken cancellationToken = new CancellationToken())
     {
+        _logger.LogInformation("Efetuando o cadastro de : {NomeCompleto}", request.NomeCompleto);
         var pessoaFisica = new Infraestructure.PessoaFisica
         {
             NomeCompleto = request.NomeCompleto,

@@ -10,10 +10,10 @@ public class List : EndpointBaseAsync
     .WithoutRequest
     .WithResult<List<PessoaFisicaResponse>>
 {
-    private readonly ILogger<Create> _logger;
+    private readonly ILogger<List> _logger;
     private readonly DesafioCadastroPessoaFisicaDbContext _dbContext;
 
-    public List(ILogger<Create> logger, DesafioCadastroPessoaFisicaDbContext dbContext)
+    public List(ILogger<List> logger, DesafioCadastroPessoaFisicaDbContext dbContext)
     {
         _logger = logger;
         _dbContext = dbContext;
@@ -29,6 +29,7 @@ public class List : EndpointBaseAsync
     public override Task<List<PessoaFisicaResponse>> HandleAsync(
         CancellationToken cancellationToken = new CancellationToken())
     {
+        _logger.LogInformation("Retornando lista...");
         return Task.FromResult(_dbContext
             .Pessoas
             .ToList()    

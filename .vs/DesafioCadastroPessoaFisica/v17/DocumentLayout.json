@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisica\\endpoints\\pessoafisicaendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|solutionrelative:desafiocadastropessoafisica\\endpoints\\pessoafisicaendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisica\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|solutionrelative:desafiocadastropessoafisica\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BD8805-25B8-4354-A6E3-EEED36C8A472}|Solution Items{D1BD8805-25B8-4354-A6E3-EEED36C8A472}|C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D1BD8805-25B8-4354-A6E3-EEED36C8A472}|Solution Items{D1BD8805-25B8-4354-A6E3-EEED36C8A472}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}|DesafioCadastroPessoaFisicaDatabaseTests\\DesafioCadastroPessoaFisicaDatabaseTests.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisicadatabasetests\\desafiocadastropessoafisicadbcontexttestdocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC49439-BCBE-4CAB-8EBF-C7AD95492808}|DesafioCadastroPessoaFisicaDatabaseTests\\DesafioCadastroPessoaFisicaDatabaseTests.csproj|solutionrelative:desafiocadastropessoafisicadatabasetests\\desafiocadastropessoafisicadbcontexttestdocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B99B4DB-EA77-4C93-8CC4-B5FF1508762D}|DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.csproj|c:\\users\\fabio\\riderprojects\\desafiocadastropessoafisica\\desafiocadastropessoafisica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +47,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PessoaFisicaEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
-              "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
-              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
-              "RelativeToolTip": "DesafioCadastroPessoaFisica\\Endpoints\\PessoaFisicaEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABFAAAA",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Dockerfile",
+              "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\Dockerfile",
+              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Dockerfile",
+              "RelativeToolTip": "DesafioCadastroPessoaFisica\\Dockerfile",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-09T16:17:38.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DesafioCadastroPessoaFisicaDbContextTestDocker.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisicaDatabaseTests\\DesafioCadastroPessoaFisicaDbContextTestDocker.cs",
+              "RelativeDocumentMoniker": "DesafioCadastroPessoaFisicaDatabaseTests\\DesafioCadastroPessoaFisicaDbContextTestDocker.cs",
+              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisicaDatabaseTests\\DesafioCadastroPessoaFisicaDbContextTestDocker.cs",
+              "RelativeToolTip": "DesafioCadastroPessoaFisicaDatabaseTests\\DesafioCadastroPessoaFisicaDbContextTestDocker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T03:47:15.772Z",
+              "WhenOpened": "2024-04-09T15:46:19.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-09T15:46:01.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Program.cs",
               "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\Program.cs",
               "ToolTip": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\Program.cs",
               "RelativeToolTip": "DesafioCadastroPessoaFisica\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T03:47:03.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DesafioCadastroPessoaFisica.http",
               "DocumentMoniker": "C:\\Users\\fabio\\RiderProjects\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
               "RelativeDocumentMoniker": "DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
@@ -72,8 +106,7 @@
               "RelativeToolTip": "DesafioCadastroPessoaFisica\\DesafioCadastroPessoaFisica.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-09T03:19:59.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T03:19:59.771Z"
             }
           ]
         }

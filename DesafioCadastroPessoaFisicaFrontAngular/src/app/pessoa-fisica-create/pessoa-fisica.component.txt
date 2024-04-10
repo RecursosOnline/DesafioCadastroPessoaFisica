@@ -1,0 +1,43 @@
+import { Component, inject } from '@angular/core';
+
+import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCardModule } from '@angular/material/card';
+import { CadastroService } from '../servicos/cadastro.service';
+
+
+@Component({
+  selector: 'app-pessoa-fisica',
+  templateUrl: './pessoa-fisica-create.component.html',
+  styleUrl: './pessoa-fisica-create.component.css',
+  standalone: true,
+  imports: [
+    MatInputModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatCardModule,
+    ReactiveFormsModule
+  ]
+})
+export class PessoaFisicaComponent {
+  constructor(private cadastroService: CadastroService){}
+  private fb = inject(FormBuilder);
+  pessoaFisicaForm = this.fb.group({
+    nomeCompleto: [null, Validators.required],
+    dataNascimento: [null, Validators.required],
+    valorRenda: [null, Validators.required],
+    cpf: [null, Validators.compose([
+      Validators.required, Validators.minLength(11), Validators.maxLength(14)])
+    ]
+  });
+  
+  onSubmit(): void {
+    
+    alert('Thanks!' + this.cadastroService.getInfo());
+    alert(this.cadastroService.getPessoas());
+  }
+}

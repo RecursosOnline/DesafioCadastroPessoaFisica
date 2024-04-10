@@ -1,0 +1,45 @@
+<form [formGroup]="pessoaFisicaForm" novalidate (ngSubmit)="onSubmit()">
+  <mat-card class="pessofisica-card">
+    <mat-card-header>
+      <mat-card-title>Pessoa Fisica</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Nome Completo" formControlName="nomeCompleto">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput #cpf maxlength="11" placeholder="CPF" type="text" formControlName="cpf">
+            <mat-hint align="end">{{cpf.value.length}} / 11</mat-hint>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput #dataNascimento placeholder="Data de Nascimento" type="date"
+              formControlName="dataNascimento">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput #valorRenda placeholder="Valor da renda" type="number" formControlName="valorRenda">
+          </mat-form-field>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit">Submit</button>
+    </mat-card-actions>
+  </mat-card>
+</form>
+<div class="link-create">
+  <a mat-button href="/">Retornar para listagem</a>
+</div>

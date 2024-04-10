@@ -17,18 +17,21 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "Cadastro Pessoa Fisica", Version = "v1" });
     //options.SwaggerDoc("Desafio Cadastro Pessoa Fisica", new OpenApiInfo(){ Title = "Titulo API"});
 });
+builder.Services.AddHttpLogging(x => x.CombineLogs = true);
+builder.Services.AddLogging();
 var IsRunningOnDocker = RuntimeInformation.IsOSPlatform(OSPlatform.Linux) &&
                         Environment.GetEnvironmentVariable("DOTNET_RUNNING_IN_CONTAINER") == "true";
 Console.Write($"IsRunningOnDocker: {IsRunningOnDocker}");
 var config = new ConfigurationBuilder()
     .SetBasePath(AppContext.BaseDirectory)
-    //.AddJsonFile("appsettings.json")
+    .AddJsonFile("appsettings.json")
     .AddEnvironmentVariables()
     .Build();
 
 builder.Services.AddDbContext<DesafioCadastroPessoaFisicaDbContext>(options =>
 {
-    var x = config.GetConnectionString(!IsRunningOnDocker
+    var x = config.GetConnectionString(
+        !IsRunningOnDocker
         ? "DesafioCadastroPessoaFisica"
         : "DesafioCadastroPessoaFisicaDockerCompose");
     Console.WriteLine(x);
@@ -40,6 +43,13 @@ builder.Services.AddControllers(options => { options.UseNamespaceRouteToken(); }
 builder.Services.AddScoped<IValidator<PessoaFisica>, PessoaFisicaValidator>();
 
 var app = builder.Build();
+
+app.UseCors(x =>
+{
+    x.AllowAnyOrigin();
+    x.AllowAnyHeader();
+    x.AllowAnyMethod();
+});
 
 using (var scoped = app.Services.CreateScope())
 {

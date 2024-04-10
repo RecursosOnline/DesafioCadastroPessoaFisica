@@ -10,9 +10,9 @@ public class Delete: EndpointBaseAsync
     .WithRequest<DeletePessoaFisicaCommand>
     .WithResult<bool>
 {
-    private readonly ILogger<Update> _logger;
+    private readonly ILogger<Delete> _logger;
     private readonly DesafioCadastroPessoaFisicaDbContext _dbContext;
-    public Delete(ILogger<Update> logger, DesafioCadastroPessoaFisicaDbContext dbContext)
+    public Delete(ILogger<Delete> logger, DesafioCadastroPessoaFisicaDbContext dbContext)
     {
         _logger = logger;
         _dbContext = dbContext;
@@ -24,8 +24,9 @@ public class Delete: EndpointBaseAsync
         OperationId = "PessoaFisica_Delete",
         Tags = new[] { "PessoaFisica" })
     ]
-    public override async Task<bool> HandleAsync([FromQuery]DeletePessoaFisicaCommand request, CancellationToken cancellationToken = new CancellationToken())
+    public override async Task<bool> HandleAsync(DeletePessoaFisicaCommand request, CancellationToken cancellationToken = new CancellationToken())
     {
+        _logger.LogInformation("Excluindo PessoaFisicaId: {PessoaFisicaId}", request.pessoaFisicaId);
         var pessoaFisica = await _dbContext
             .Pessoas
             .SingleOrDefaultAsync(x => x.PessoaFisicaId == request.pessoaFisicaId, cancellationToken);
