@@ -33,10 +33,10 @@ public class Delete: EndpointBaseAsync
         if (pessoaFisica is not null)
         {
             _dbContext.Pessoas.Remove(pessoaFisica);
-            await _dbContext.SaveChangesAsync(cancellationToken);
+            return await _dbContext.SaveChangesAsync(cancellationToken) > 0;
         }
         
-        return await Task.FromResult(true);
+        return await Task.FromResult(false);
     }
 }
 

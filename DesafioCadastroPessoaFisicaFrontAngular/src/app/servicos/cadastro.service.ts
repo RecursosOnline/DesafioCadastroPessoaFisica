@@ -14,6 +14,7 @@ export class CadastroService {
   listaPessoaFisica$: Observable<Array<PessoaFisicaItem>> = new Observable();
   
   constructor(){
+    console.log("construtor()");
    this.getPessoas();
   }
   getPessoas(): void
@@ -21,7 +22,15 @@ export class CadastroService {
     console.log("Refresh....");
     // let result = this.http.get(this.apiUrl);      
     this.listaPessoaFisica$ = this.http.get<PessoaFisicaItem[]>(this.apiUrl);      
-    
+
+  }
+  atualizaListaPrincipal(): Observable<any>
+  {
+    this.getPessoas();
+    return new Observable(o=>{
+      o.next(1)
+      o.complete()
+    });
   }
   getPessoa(pessoaFisicaId:string): Observable<PessoaFisicaItem | undefined>
   {

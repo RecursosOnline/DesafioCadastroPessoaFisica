@@ -47,12 +47,12 @@ export class PessoaFisicaEditComponent {
     this
     .cadastroService
     .getPessoa(this.pessoaFisicaId)
-    .subscribe((data)=>{
-      console.log(data);
-      this.pessoaFisicaForm.controls["nomeCompleto"].setValue(data?.nomeCompleto || null);
-      this.pessoaFisicaForm.controls["dataNascimento"].setValue(data?.dataDeNascimento || null);
-      this.pessoaFisicaForm.controls["valorRenda"].setValue(data?.valorDaRenda || null);
-      this.pessoaFisicaForm.controls["cpf"].setValue(data?.cpf || null);
+    .subscribe((pessoaFisica)=>{
+      console.table(pessoaFisica);
+      this.pessoaFisicaForm.controls["nomeCompleto"].setValue(pessoaFisica?.nomeCompleto || null);
+      this.pessoaFisicaForm.controls["dataNascimento"].setValue(pessoaFisica?.dataDeNascimento || null);
+      this.pessoaFisicaForm.controls["valorRenda"].setValue(pessoaFisica?.valorDaRenda || null);
+      this.pessoaFisicaForm.controls["cpf"].setValue(pessoaFisica?.cpf || null);
       
     });
 
@@ -73,11 +73,27 @@ export class PessoaFisicaEditComponent {
       cpf: this.pessoaFisicaForm.get("cpf")?.value || "" };
       console.log(pessoaFisica);
       this.cadastroService.updatePessoa(pessoaFisica);
+      this.cadastroService.getPessoas();
+      // console.log("Atualizando lista principal....");
+      // this.cadastroService.atualizaListaPrincipal()
+      // .subscribe({
+      //   next: (v) => console.log(v),
+      //   error: (e) => console.error(e),
+      //   complete: () => {
+      //         console.log("Lista principal atualizada");
+      //         this.router.navigate(['/'])
+      //           .then(() => {
+      //             console.log("Atualizando a pagina");
+      //             window.location.reload();
+      //         }); 
+      //   }
+      // });
+      
       //this.cadastroService.getPessoas();
-      this.router.navigate(['/'])
-      .then(()=>{
-        window.location.reload();
-      });   
+      // this.router.navigate(['/'])
+      // .then(()=>{
+      //   window.location.reload();
+      // });   
       //this.router.navigateByUrl("/");   
   }
   onDelete(): void {
@@ -85,11 +101,11 @@ export class PessoaFisicaEditComponent {
     {
       let pessoaFisicaId = this.route.snapshot.paramMap.get('pessoaFisicaId') || "";      
       this.cadastroService.deletePessoa(pessoaFisicaId);   
-     // this.cadastroService.getPessoas();
-      this.router.navigate(['/'])
-      .then(()=>{
-        window.location.reload();
-      });  
+      this.cadastroService.getPessoas();
+      // this.router.navigate(['/'])
+      // .then(()=>{
+      //   window.location.reload();
+      // });  
       
     }
   }

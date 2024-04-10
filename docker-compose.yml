@@ -18,15 +18,16 @@
     ports:
       - "8080:8080"
     
-  desafiocadastropessoafisicafrontendangular:
-    image: desafiocadastropessoafisicafrontendangular
-    build:
-      context: DesafioCadastroPessoaFisicaFrontAngular/
-      dockerfile: Dockerfile
-      isolation: "true"
-    depends_on: [ db, desafiocadastropessoafisica ]
-    ports:
-       - "4020:4020"
+#  desafiocadastropessoafisicafrontendangular:
+#    image: desafiocadastropessoafisicafrontendangular
+#    build:
+#      context: DesafioCadastroPessoaFisicaFrontAngular/
+#      dockerfile: Dockerfile   
+#    #depends_on: [ db, desafiocadastropessoafisica ]
+#    ports:
+#       - "4200:4200"
+
+
 #  desafiocadastropessoafisicatests:
 #    image: desafiocadastropessoafisicatests
 #    build:
